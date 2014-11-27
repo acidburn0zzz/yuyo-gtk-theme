@@ -807,12 +807,12 @@ style "menubar"
 
 	fg[NORMAL]        = @fg_color_dark
 	fg[PRELIGHT]	  = shade (1.15, @fg_color_dark)
-	fg[ACTIVE]	  = @fg_color_dark
+	fg[ACTIVE]	  	  = @fg_color_dark
 	fg[SELECTED]	  = @selected_fg_color_dark
 	fg[INSENSITIVE]	  = shade (0.5, @fg_color_dark)
   
 	bg[NORMAL]        = @bg_color_dark
-	bg[ACTIVE]	  = shade (0.8, @bg_color_dark)
+	bg[ACTIVE]	  	  = shade (0.8, @bg_color_dark)
 	bg[SELECTED]      = @selected_bg_color
 	bg[PRELIGHT]      = shade (1.0, "#4D4C48")
 	bg[INSENSITIVE]   = shade (0.85, @bg_color_dark)
@@ -2469,6 +2469,7 @@ class "GtkFrame"	                style "frame"
 class "GtkToolbar"	                style "toolbar"
 
 widget_class "*<GtkMenuBar>*"			style "menubar"
+widget_class "*.*enu?ar*"			style "menubar"
 widget_class "*<GtkMenu>*"			style "menu"
 widget_class "*<GtkMenuItem>*"			style "menu_item"
 widget_class "*<GtkMenuBar>.<GtkMenuItem>*"	style "menubar_item"
