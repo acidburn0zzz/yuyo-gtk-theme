@@ -2402,3 +2402,4 @@ widget "*libreoffice-toplevel*GtkSpinButton"  style "libreoffice_entry"
 # Includes
 include "Apps/xfce.rc"
 include "Apps/thunar.rc"
+include "Apps/terminal.rc"
