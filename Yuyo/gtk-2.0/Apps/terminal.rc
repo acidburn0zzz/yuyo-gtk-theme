@@ -13,7 +13,7 @@ style "terminal_menubar"
 
 style "terminal_notebook" = "dark"
 {
-	fg[ACTIVE] = mix (0.8, "#4B5044", "#4B5044")
+	fg[ACTIVE] = mix (0.8, "#E3E7E1", "#E3E7E1")
 
 	engine "murrine" {
 	}
@@ -33,7 +33,7 @@ style "terminal_scrollbar" = "scrollbar"
 
 style "terminal_screen"
 {
-	text[NORMAL] = "#ffffff"
+	text[NORMAL] = "#E3E7E1"
 	base[NORMAL] = "#34422E"
 
 	TerminalScreen::background-darkness = 0.95
