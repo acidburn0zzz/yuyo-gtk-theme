@@ -28,9 +28,9 @@
 
 
 <!-- CONSTANTS -->
-<constant name="C_titlebar" value="#555555" />
-<constant name="C_border_focused" value="#555555" />
-<constant name="C_border_unfocused" value="#555555" />
+<constant name="C_titlebar" value="#4D563E" />
+<constant name="C_border_focused" value="#4D563E" />
+<constant name="C_border_unfocused" value="#4D563E" />
 <constant name="C_title_focused" value="#f7f7f7" />
 <constant name="C_title_unfocused" value="#aaaaaa" />
 
