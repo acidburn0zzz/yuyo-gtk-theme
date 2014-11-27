@@ -46,7 +46,7 @@
 	<distance name="title_vertical_pad" value="6" />
 	<aspect_ratio name="button" value="1.0" />
 	<border name="title_border" left="4" right="4" top="4" bottom="4" />
-	<border name="button_border" left="6" right="0" top="4" bottom="4" />
+	<border name="button_border" left="2" right="0" top="4" bottom="4" />
 </frame_geometry>
 
 <!-- Unfocused window -->
@@ -57,7 +57,7 @@
 	<distance name="left_titlebar_edge" value="4"/>
 	<distance name="right_titlebar_edge" value="4"/>
 	<distance name="title_vertical_pad" value="6"/>
-	<border name="button_border" left="6" right="0" top="4" bottom="4" />
+	<border name="button_border" left="2" right="0" top="4" bottom="4" />
 </frame_geometry>
 
 <!-- Maximized window -->
@@ -69,7 +69,7 @@
 	<distance name="right_titlebar_edge" value="4" />
 	<distance name="title_vertical_pad" value="6" />
 	<border name="title_border" left="4" right="4" top="4" bottom="4" />
-	<border name="button_border" left="6" right="0" top="4" bottom="4" />
+	<border name="button_border" left="2" right="0" top="4" bottom="4" />
 </frame_geometry>
 
 <!-- Left tiled window -->
