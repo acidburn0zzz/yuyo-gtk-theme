@@ -52,4 +52,4 @@ widget "*TerminalWindow.*.GtkNotebook*"                  style "terminal_noteboo
 widget "*TerminalWindow.*.GtkNotebook.*.GtkVScrollbar*"  style "scrollbar_dark"
 #widget "*TerminalWindow.*.GtkNotebook*utton*"           style "terminal_button"
 widget "*TerminalWindow.*.TerminalScreen*"               style "terminal_screen"
-widget "*TerminalWindow.*.*enu?ar.<GtkMenuItem>*"	     style "terminal_menubar_item"
+widget "*TerminalWindow.*.*enu?ar.GtkMenuItem*"	     	 style "terminal_menubar_item"
