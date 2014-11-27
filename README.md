@@ -1,7 +1,7 @@
 Yuyo GTK Theme
 ================
 
-Yuyo is an GTK3 theme belonging to the [Ubuntu MATE](http://www.ubuntu-mate.org/) project, it is a fork of the Orchis GTK theme from [Moka Project](http://mokaproject.com/).
+Yuyo is an GTK theme belonging to the [Ubuntu MATE](http://www.ubuntu-mate.org/) project, it is a fork of the Orchis GTK theme from [Moka Project](http://mokaproject.com/).
 
 Yuyo GTK Theme is distributed under the terms the GNU GPL v.3
 
@@ -9,10 +9,9 @@ Yuyo GTK Theme is distributed under the terms the GNU GPL v.3
 
 If you find any bugs or issues with Yuyo or if you have a question, you can visit Yuyo's primary issue tracker on [GitHub](https://github.com/snwh/yuyo-gtk-theme/issues).
 
-
 ###Getting the Source
 
-The source for Yuyo GTK3 Theme can be found [here](https://github.com/snwh/yuyo-gtk-theme).
+The source for Yuyo GTK Theme can be found [here](https://github.com/snwh/yuyo-gtk-theme).
 
 Alternatively, you can clone the latest version its git repository:
 
