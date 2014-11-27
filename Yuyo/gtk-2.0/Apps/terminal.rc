@@ -7,9 +7,6 @@ style "terminal_window" = "dark" {
 
 style "terminal_menubar"
 {
-
-	fg[SELECTED]	= "#4B5044"
-
 	engine "murrine" {
 	}
 }
@@ -43,7 +40,7 @@ style "terminal_screen"
 }
 
 widget "*TerminalWindow*"                               style "terminal_window"
-#widget "*TerminalWindow.*.*enu?ar"                     style "terminal_menubar"
+#widget "*TerminalWindow.*.*enu?ar"                     style "menubar"
 widget "*TerminalWindow.*.GtkNotebook*"                 style "terminal_notebook"
 widget "*TerminalWindow.*.GtkNotebook.*.GtkVScrollbar*" style "scrollbar_dark"
 #widget "*TerminalWindow.*.GtkNotebook*utton*"           style "terminal_button"
