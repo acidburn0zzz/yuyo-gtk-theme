@@ -1,4 +1,4 @@
 Dependencies
 ============
 
-Yuyo GTK theme required "gtk2-engines-pixbuf"
+Yuyo GTK theme requires "gtk2-engines-pixbuf" and  "gtk2-engines-murrine"
