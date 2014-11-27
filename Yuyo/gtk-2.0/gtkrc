@@ -547,11 +547,29 @@ style "default"
         }
 }
 
-style "toplevel_hack"
+style "dark"
 {
-        engine "adwaita"
-        {
-        }
+	color["bg_color_dark"] 	= "#4B5044"
+	color["fg_color_dark"] 	= "#ffffff"
+	color["selected_fg_color_dark"] = "#ffffff"
+
+	fg[NORMAL]        = @fg_color_dark
+	fg[PRELIGHT]	  = shade (1.15, @fg_color_dark)
+	fg[ACTIVE]	  = @fg_color_dark
+	fg[SELECTED]	  = @selected_fg_color_dark
+	fg[INSENSITIVE]	  = shade (0.5, @fg_color_dark)
+  
+	bg[NORMAL]        = @bg_color_dark
+	bg[ACTIVE]	  = shade (0.8, @bg_color_dark)
+	bg[SELECTED]      = @selected_bg_color
+	bg[PRELIGHT]      = shade (1.0, "#4D4C48")
+	bg[INSENSITIVE]   = shade (0.85, @bg_color_dark)
+  	
+	text[NORMAL]      = @fg_color_dark
+	text[PRELIGHT]	  = shade (1.15, @fg_color_dark)
+	text[SELECTED]	  = @selected_fg_color_dark
+	text[ACTIVE]      = @fg_color_dark
+	text[INSENSITIVE] = mix (0.5, @bg_color, @bg_color_dark)
 }
 
 style "ooo_stepper_hack"
@@ -715,13 +733,6 @@ style "menu"
 	  stretch			= TRUE
 	}
     }
-}
-
-style "menu_framed_box"
-{
-	engine "adwaita"
-	{
-        }
 }
 
 style "menu_item"
@@ -2330,7 +2341,6 @@ class "GtkToolbar"	                style "toolbar"
 
 widget_class "*<GtkMenuBar>*"			style "menubar"
 widget_class "*<GtkMenu>*"			style "menu"
-widget_class "*<GtkMenu>*"			style "menu_framed_box"
 widget_class "*<GtkMenuItem>*"			style "menu_item"
 widget_class "*<GtkMenuBar>.<GtkMenuItem>*"	style "menubar_item"
 widget_class "*<GtkCheckButton>*"               style "checkbutton"
@@ -2383,7 +2393,6 @@ widget "gtk-tooltips*" 			style "eclipse-tooltips"
 widget "*swt-toolbar-flat"		style "null"
 
 # Openoffice, Libreoffice
-class "GtkWindow"                             style "toplevel_hack"
 widget "*openoffice-toplevel*"                style "ooo_stepper_hack"
 widget "*openoffice-toplevel*GtkEntry"        style "libreoffice_entry"
 widget "*openoffice-toplevel*GtkSpinButton"   style "libreoffice_entry"

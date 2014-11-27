@@ -1,4 +1,4 @@
 Dependencies
 ============
 
-Yuyo GTK theme depends on "gnome-theme-standards" and "gtk2-engines-pixbuf"
+Yuyo GTK theme required "gtk2-engines-pixbuf"
