@@ -689,6 +689,116 @@ style "scrollbar"
   }
 }
 
+style "scrollbar_dark"
+{
+  engine "pixmap" 
+  {
+    image 
+    {
+      function			= BOX
+      detail			= "trough"
+      file			= "Scrollbars/trough-scrollbar-horiz-dark.png"
+      border			= { 19, 19, 4, 4 }
+      stretch			= TRUE
+      orientation		= HORIZONTAL
+    }
+    image 
+    {
+      function			= BOX
+      detail			= "trough"
+      file			= "Scrollbars/trough-scrollbar-vert-dark.png"
+      border			= { 4, 4, 19, 19 }
+      stretch			= TRUE
+      orientation		= VERTICAL
+    }
+
+# Sliders
+
+    image 
+    {
+      function				= SLIDER
+      state           			= NORMAL
+      file				= "Scrollbars/slider-horiz.png" 
+      border				= { 7, 7, 5, 5 }
+      stretch				= TRUE
+      orientation			= HORIZONTAL
+
+    }
+    image 
+    {
+      function				= SLIDER
+      state           			= ACTIVE
+      file				= "Scrollbars/slider-horiz-active.png" 
+      border				= { 7, 7, 5, 5 }
+      stretch				= TRUE
+      orientation			= HORIZONTAL
+
+    }
+    image 
+    {
+      function				= SLIDER
+      state           			= PRELIGHT
+      file				= "Scrollbars/slider-horiz-prelight.png" 
+      border				= { 7, 7, 5, 5 }
+      stretch				= TRUE
+      orientation			= HORIZONTAL
+
+    }
+    image 
+    {
+      function				= SLIDER
+      state           			= INSENSITIVE
+      file				= "Scrollbars/slider-horiz-insens.png"
+      border				= { 7, 7, 5, 5 }
+      stretch				= TRUE
+      orientation			= HORIZONTAL
+    }
+
+# X Verticals
+
+    image 
+    {
+      function				= SLIDER
+      state           			= NORMAL
+      file				= "Scrollbars/slider-vert.png" 
+      border				= { 5, 5, 7, 7 }
+      stretch				= TRUE
+      orientation			= VERTICAL
+
+    }
+    image 
+    {
+      function				= SLIDER
+      state           			= ACTIVE
+      file				= "Scrollbars/slider-vert-active.png" 
+      border				= { 5, 5, 7, 7 }
+      stretch				= TRUE
+      orientation			= VERTICAL
+
+    }
+    image 
+    {
+      function				= SLIDER
+      state           			= PRELIGHT
+      file				= "Scrollbars/slider-vert-prelight.png" 
+      border				= { 5, 5, 7, 7 }
+      stretch				= TRUE
+      orientation			= VERTICAL
+
+    }
+    image 
+    {
+      function				= SLIDER
+      state           			= INSENSITIVE
+      file				= "Scrollbars/slider-vert-insens.png"
+      border				= { 5, 5, 7, 7 }
+      stretch				= TRUE
+      orientation			= VERTICAL
+
+    }
+  }
+}
+
 style "menubar"
 {
 	bg[PRELIGHT]	= "#FFF"
