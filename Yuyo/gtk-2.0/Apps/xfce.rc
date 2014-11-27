@@ -147,9 +147,8 @@ widget "*WnckPager*"			style "workspace-switcher"
 widget "*XfdesktopIconView*"	style "xfdesktop-icon-view"
 
 # Fix gtk-entries in the panel
-class "GtkEntry"			    style "combo"
-class "*SexyIconEntry*"			style:highest "combo"	# fixes dict-plugin
-widget "*xfce4-verve-plugin*GtkEntry"	style:highest "combo"	# fixes verve-plugin
+class "*SexyIconEntry*"			style:highest "entry"	# fixes dict-plugin
+widget "*xfce4-verve-plugin*GtkEntry"	style:highest "entry"	# fixes verve-plugin
 
 # Make sure panel text color doesn't change
 widget_class "*Panel*MenuBar*"		style "theme-main-menu-text"
