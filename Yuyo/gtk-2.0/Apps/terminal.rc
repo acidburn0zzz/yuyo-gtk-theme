@@ -7,6 +7,9 @@ style "terminal_window" = "dark" {
 
 style "terminal_menubar"
 {
+
+	fg[PRELIGHT]	= @text_color
+
 	engine "murrine" {
 	}
 }
@@ -31,13 +34,6 @@ style "terminal_scrollbar" = "scrollbar"
 	}
 }
 
-style "terminal_menubar_item"
-{
-	xthickness	= 2
-	ythickness	= 3
-	fg[PRELIGHT]	= @text_color
-}
-
 style "terminal_screen"
 {
 	text[NORMAL] = "#E3E7E1"
@@ -46,10 +42,10 @@ style "terminal_screen"
 	TerminalScreen::background-darkness = 0.95
 }
 
-widget "*TerminalWindow*"                                style "terminal_window"
-widget "*TerminalWindow.*.*enu?ar"                       style "terminal_menubar"
-widget "*TerminalWindow.*.GtkNotebook*"                  style "terminal_notebook"
-widget "*TerminalWindow.*.GtkNotebook.*.GtkVScrollbar*"  style "scrollbar_dark"
+widget "*TerminalWindow*"                               style "terminal_window"
+widget "*TerminalWindow.*.*enu?ar"                     style "terminal_menubar"
+widget "*TerminalWindow.*.GtkNotebook*"                 style "terminal_notebook"
+widget "*TerminalWindow.*.GtkNotebook.*.GtkVScrollbar*" style "scrollbar_dark"
 #widget "*TerminalWindow.*.GtkNotebook*utton*"           style "terminal_button"
-widget "*TerminalWindow.*.TerminalScreen*"               style "terminal_screen"
-widget "*TerminalWindow.*.*enu?ar.GtkMenuItem*"	     	 style "terminal_menubar_item"
+widget "*TerminalWindow.*.TerminalScreen*"              style "terminal_screen"
+widget_class "*TerminalWindow.*<GtkMenuBar>.<GtkMenuItem>*"	style "terminal_menubar_item"
