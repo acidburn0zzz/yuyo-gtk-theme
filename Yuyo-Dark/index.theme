@@ -1,9 +1,13 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
 Name=Yuyo-Dark
-Comment=The one and only.
+Comment=Ubuntu MATE dark Yuyo theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Yuyo-Dark
+Name=Yuyo-Dark
+Type=X-GNOME-Metatheme
+Comment=Ubuntu MATE dark Yuyo theme
+GtkTheme=Yuyo
 MetacityTheme=Yuyo-Dark
+X-Ubuntu-UseOverlayScrollbars=false
