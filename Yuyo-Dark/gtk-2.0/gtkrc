@@ -801,7 +801,9 @@ style "scrollbar_dark"
 
 style "menubar"
 {
+	bg[NORMAL]		= "@panel_bg_color"
 	bg[PRELIGHT]	= "#FFF"
+	fg[NORMAL]		= @panel_text_color
 	fg[SELECTED]	= @panel_text_color
 
 	xthickness	= 0
@@ -2435,7 +2437,7 @@ style "null"
 }
 
 
-class "GtkWidget"			style "default"
+class "GtkWidget"				style "default"
 class "GtkScrollbar"       		style "scrollbar"
 class "GtkButton"          		style "button"
 class "GtkEntry"           		style "entry"
