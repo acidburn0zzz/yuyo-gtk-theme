@@ -8,8 +8,8 @@ style "terminal_window" = "dark" {
 style "terminal_menubar"
 {
 
-	fg[SELECTED]	= #4B5044
-	
+	fg[SELECTED]	= "#4B5044"
+
 	engine "murrine" {
 	}
 }
