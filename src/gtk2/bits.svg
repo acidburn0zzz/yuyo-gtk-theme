@@ -1378,9 +1378,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="219.19037"
-     inkscape:cy="329.99485"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="131.59428"
+     inkscape:cy="405.89067"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
@@ -1446,7 +1446,10 @@
        id="Entry_combo-entry-border"
        inkscape:label="#g4383"
        transform="translate(50,0)"
-       clip-path="url(#clipPath4697)">
+       clip-path="url(#clipPath4697)"
+       inkscape:export-filename="/home/sam/Projects/Ubuntu-MATE/yuyo-gtk-theme/Yuyo/gtk-2.0/Entry/combo-entry-border-notebook.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          style="color:#000000;fill:url(#linearGradient4889);fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          d="M 4.0000005,81.5 16,81.5 c 1.385,0 2.5,1.115 2.5,2.5 l 0,24 c 0,1.385 -1.115,2.5 -2.5,2.5 l -11.9999995,0 C 2.6150002,110.5 1.5,109.385 1.5,108 l 0,-24 c 0,-1.385 1.1150002,-2.5 2.5000005,-2.5 z"
@@ -1494,7 +1497,10 @@
        id="Entry_combo-entry-button"
        inkscape:label="#g4383"
        transform="matrix(-1,0,0,1,70,0)"
-       clip-path="url(#clipPath4697-3)">
+       clip-path="url(#clipPath4697-3)"
+       inkscape:export-filename="/home/sam/Projects/Ubuntu-MATE/yuyo-gtk-theme/Yuyo/gtk-2.0/Entry/combo-entry-border-rtl-notebook.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          style="color:#000000;fill:url(#linearGradient4885);fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          d="M 4.0000005,81.5 16,81.5 c 1.385,0 2.5,1.115 2.5,2.5 l 0,24 c 0,1.385 -1.115,2.5 -2.5,2.5 l -11.9999995,0 C 2.6150002,110.5 1.5,109.385 1.5,108 l 0,-24 c 0,-1.385 1.1150002,-2.5 2.5000005,-2.5 z"
@@ -1915,7 +1921,10 @@
     </g>
     <g
        id="Entry_entry-border-active"
-       inkscape:label="#g4391">
+       inkscape:label="#g4391"
+       inkscape:export-filename="/home/sam/Projects/Ubuntu-MATE/yuyo-gtk-theme/Yuyo/gtk-2.0/Entry/entry-border-active-bg-solid.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <use
          x="0"
          y="0"
@@ -1964,7 +1973,10 @@
     </g>
     <g
        id="Entry_entry-border"
-       inkscape:label="#g4383">
+       inkscape:label="#g4383"
+       inkscape:export-filename="/home/sam/Projects/Ubuntu-MATE/yuyo-gtk-theme/Yuyo/gtk-2.0/Entry/entry-border-notebook.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <rect
          ry="2.5"
          rx="2.5000005"
@@ -2011,7 +2023,10 @@
     <g
        inkscape:label="#Buttons/button-insensitive"
        id="Entry_entry-border-disabled"
-       transform="translate(0,80)">
+       transform="translate(0,80)"
+       inkscape:export-filename="/home/sam/Projects/Ubuntu-MATE/yuyo-gtk-theme/Yuyo/gtk-2.0/Entry/entry-border-disabled-bg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <rect
          ry="2.5"
          rx="2.5000005"
@@ -2074,7 +2089,10 @@
        id="Entry_combo-entry-border-disabled"
        inkscape:label="#g4383"
        transform="translate(90,0)"
-       clip-path="url(#clipPath4697-2)">
+       clip-path="url(#clipPath4697-2)"
+       inkscape:export-filename="/home/sam/Projects/Ubuntu-MATE/yuyo-gtk-theme/Yuyo/gtk-2.0/Entry/combo-entry-border-disabled-bg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          style="color:#000000;fill:#f4f4f2;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          d="M 4.0000005,81.5 16,81.5 c 1.385,0 2.5,1.115 2.5,2.5 l 0,24 c 0,1.385 -1.115,2.5 -2.5,2.5 l -11.9999995,0 C 2.6150002,110.5 1.5,109.385 1.5,108 l 0,-24 c 0,-1.385 1.1150002,-2.5 2.5000005,-2.5 z"
@@ -2110,7 +2128,10 @@
        id="Entry_combo-entry-button-disabled"
        inkscape:label="#g4383"
        transform="matrix(-1,0,0,1,110,0)"
-       clip-path="url(#clipPath4697-3-0)">
+       clip-path="url(#clipPath4697-3-0)"
+       inkscape:export-filename="/home/sam/Projects/Ubuntu-MATE/yuyo-gtk-theme/Yuyo/gtk-2.0/Entry/combo-entry-border-disabled-rtl-bg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          style="color:#000000;fill:#f4f4f2;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          d="M 4.0000005,81.5 16,81.5 c 1.385,0 2.5,1.115 2.5,2.5 l 0,24 c 0,1.385 -1.115,2.5 -2.5,2.5 l -11.9999995,0 C 2.6150002,110.5 1.5,109.385 1.5,108 l 0,-24 c 0,-1.385 1.1150002,-2.5 2.5000005,-2.5 z"
