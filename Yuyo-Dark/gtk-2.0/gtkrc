@@ -799,7 +799,7 @@ style "scrollbar_dark"
   }
 }
 
-style "menubar"
+style "menubar" = "dark"
 {
 
 	xthickness	= 0
@@ -813,17 +813,6 @@ style "menubar"
 	      recolorable	= TRUE
 	      state		= PRELIGHT
 	      file		= "Menu-Menubar/menubar_button.png"
-
-	      border		= { 4, 4, 4, 4 }
-	      stretch		= TRUE
-	  }
-
-	  image
-          {
-	      function		= BOX
-	      recolorable	= TRUE
-	      state		= NORMAL
-	      file		= "Menu-Menubar/menubar.png"
 
 	      border		= { 4, 4, 4, 4 }
 	      stretch		= TRUE
@@ -2459,7 +2448,6 @@ class "GtkFrame"	                style "frame"
 class "GtkToolbar"	                style "toolbar"
 
 widget_class "*<GtkMenuBar>*"			style "menubar"
-widget_class "*enu?ar"			style "menubar"
 widget_class "*<GtkMenu>*"			style "menu"
 widget_class "*<GtkMenuItem>*"			style "menu_item"
 widget_class "*<GtkMenuBar>.<GtkMenuItem>*"	style "menubar_item"
