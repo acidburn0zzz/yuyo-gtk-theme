@@ -10,6 +10,6 @@ Type=X-GNOME-Metatheme
 Comment=Ubuntu MATE dark Yuyo theme
 GtkTheme=Yuyo
 MetacityTheme=Yuyo-Dark
-IconTheme=ubuntu-mono-dark
+IconTheme=Ambiant-MATE
 CursorTheme=default
 X-Ubuntu-UseOverlayScrollbars=false
