@@ -1,4 +1,14 @@
 Dependencies
 ============
 
-Yuyo GTK theme requires "gtk2-engines-pixbuf" and  "gtk2-engines-murrine"
+Yuyo GTK theme requires "gtk2-engines-pixbuf" and "gtk2-engines-murrine"
+
+Install
+=======
+
+To use, simply copy both "Yuyo" and "Yuyo-Dark" into the ~/.themes/ and ~/.local/share/themes/ folders.
+
+    cp -r Yuyo/ ~/.themes
+    cp -r Yuyo/ ~/.local/share/themes
+    cp -r Yuyo-Dark/ ~/.themes
+    cp -r Yuyo-Dark/ ~/.local/share/themes
