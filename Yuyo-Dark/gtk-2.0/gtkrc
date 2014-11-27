@@ -823,8 +823,8 @@ style "menubar"
 	text[ACTIVE]      = @fg_color_dark
 	text[INSENSITIVE] = mix (0.5, @bg_color, @bg_color_dark)
 
-	xthickness	= 0
-	ythickness	= 0
+	xthickness	= 4
+	ythickness	= 4
 
 	engine "pixmap"
 	{
@@ -2469,8 +2469,6 @@ class "GtkFrame"	                style "frame"
 class "GtkToolbar"	                style "toolbar"
 
 widget_class "*<GtkMenuBar>*"			style "menubar"
-widget_class "*.*enu?ar*"			style "menubar"
-widget_class "*<GtkMenu>*"			style "menu"
 widget_class "*<GtkMenuItem>*"			style "menu_item"
 widget_class "*<GtkMenuBar>.<GtkMenuItem>*"	style "menubar_item"
 widget_class "*<GtkCheckButton>*"               style "checkbutton"
