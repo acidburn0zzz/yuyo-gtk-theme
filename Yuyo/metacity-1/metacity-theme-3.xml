@@ -56,7 +56,7 @@
 	<distance name="bottom_height" value="1" />
 	<distance name="left_titlebar_edge" value="4"/>
 	<distance name="right_titlebar_edge" value="4"/>
-	<distance name="title_vertical_pad" value="6"/>
+	<distance name="title_vertical_pad" value="4" />
 	<border name="button_border" left="2" right="0" top="4" bottom="4" />
 </frame_geometry>
 
