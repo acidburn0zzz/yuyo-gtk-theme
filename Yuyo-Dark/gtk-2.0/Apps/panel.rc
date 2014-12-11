@@ -1,4 +1,4 @@
-style "theme-panel" = "dark"
+style "theme-panel" = "default"
 {
 	xthickness	= 1
 	ythickness	= 1
