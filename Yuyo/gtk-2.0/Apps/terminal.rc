@@ -2,7 +2,7 @@
 # GNOME TERMINAL SPECIFIC SETTINGS
 # ==============================================================================
 
-style "terminal_window" = "dark" {
+style "terminal_window" = "default" {
 }
 
 style "terminal_menubar"
@@ -12,9 +12,9 @@ style "terminal_menubar"
 	}
 }
 
-style "terminal_notebook" = "dark"
+style "terminal_notebook" = "default"
 {
-	fg[ACTIVE] = mix (0.8, "#E3E7E1", "#E3E7E1")
+	fg[ACTIVE] = "#EFEFEF"
 
 	engine "murrine" { 
 	}
