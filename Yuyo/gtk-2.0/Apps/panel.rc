@@ -9,7 +9,7 @@ style "theme-panel" = "default"
 	bg[SELECTED]	= shade (0.65, @selected_bg_color)
 	
 	fg[NORMAL]		= shade (0.9, @panel_fg_color)
-	fg[PRELIGHT]	= s
+	fg[PRELIGHT]	= "#FFFFFF"
 	fg[ACTIVE]		= shade (0.9, @panel_fg_color)
 	fg[SELECTED]	= shade (0.9, @panel_fg_color)
 	
