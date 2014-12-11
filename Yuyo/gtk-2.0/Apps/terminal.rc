@@ -14,7 +14,7 @@ style "terminal_menubar"
 
 style "terminal_notebook" = "default"
 {
-	fg[ACTIVE] = "#EFEFEF"
+	fg[ACTIVE] = shade(1.1, @text_color)
 
 	engine "murrine" { 
 	}
