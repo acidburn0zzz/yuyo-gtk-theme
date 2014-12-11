@@ -3,18 +3,18 @@ style "theme-panel" = "default"
 	xthickness	= 1
 	ythickness	= 1
 	
-	bg[NORMAL]	= @panel_bg_color
-	bg[ACTIVE]	= @panel_bg_color
+	bg[NORMAL]		= @panel_bg_color
+	bg[ACTIVE]		= @panel_bg_color
 	bg[PRELIGHT]	= shade (0.85, @selected_bg_color)
 	bg[SELECTED]	= shade (0.65, @selected_bg_color)
 	
-	fg[NORMAL]	= shade (0.9, @panel_fg_color)
-	fg[PRELIGHT]	= @panel_fg_color
-	fg[ACTIVE]	= shade (0.9, @panel_fg_color)
+	fg[NORMAL]		= shade (0.9, @panel_fg_color)
+	fg[PRELIGHT]	= "#FFFFFF"
+	fg[ACTIVE]		= shade (0.9, @panel_fg_color)
 	fg[SELECTED]	= shade (0.9, @panel_fg_color)
 	
 	text[NORMAL]	= shade (0.9, @panel_fg_color)
-	text[PRELIGHT]	= @panel_fg_color
+	text[PRELIGHT]	= "#FFFFFF"
 	text[ACTIVE]	= shade (0.9, @panel_fg_color)
 	text[SELECTED]	= shade (0.9, @panel_fg_color)
 
@@ -51,9 +51,9 @@ style "xfdesktop-icon-view"
 
 style "theme-panel-text"
 {
-	fg[NORMAL]	= @panel_fg_color
+	fg[NORMAL]		= @panel_fg_color
 	fg[PRELIGHT]	= @panel_fg_color
-	fg[ACTIVE]	= @panel_fg_color
+	fg[ACTIVE]		= @panel_fg_color
 	
 	text[NORMAL]	= @panel_fg_color
 	text[PRELIGHT]	= @panel_fg_color
@@ -67,9 +67,9 @@ style "theme-panel-text"
 
 style "panel-entry" = "dark"
 {
-	fg[NORMAL]	= @text_color
+	fg[NORMAL]		= @text_color
 	fg[PRELIGHT]	= @text_color
-	fg[ACTIVE]	= @text_color
+	fg[ACTIVE]		= @text_color
 	fg[SELECTED]	= @text_color
 	fg[INSENSITIVE]	= @text_color
 
