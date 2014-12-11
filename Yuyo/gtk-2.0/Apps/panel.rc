@@ -111,7 +111,7 @@ style "window-buttons" = "theme-panel"
 		roundness	= 1
 		reliefstyle	= 0
 		textstyle	= 1
-		text_shade	= 0.2
+		text_shade	= 0.0
 	}
 }
 
