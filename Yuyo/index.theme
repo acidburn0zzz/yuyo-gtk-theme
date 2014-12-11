@@ -1,13 +1,13 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
 Name=Yuyo
-Comment=Ubuntu MATE Yuyo theme
+Comment=The Official Ubuntu MATE GTK theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
 Name=Yuyo
 Type=X-GNOME-Metatheme
-Comment=Ubuntu MATE Yuyo theme
+Comment=The Official Ubuntu MATE GTK theme
 GtkTheme=Yuyo
 MetacityTheme=Yuyo
 IconTheme=Radiant-MATE
