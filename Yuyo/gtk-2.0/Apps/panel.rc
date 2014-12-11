@@ -52,11 +52,11 @@ style "xfdesktop-icon-view"
 style "theme-panel-text"
 {
 	fg[NORMAL]	= @panel_fg_color
-	fg[PRELIGHT]	= "@panel_fg_color"
+	fg[PRELIGHT]	= @panel_fg_color
 	fg[ACTIVE]	= @panel_fg_color
 	
 	text[NORMAL]	= @panel_fg_color
-	text[PRELIGHT]	= "@panel_fg_color"
+	text[PRELIGHT]	= @panel_fg_color
 	text[ACTIVE]	= @panel_fg_color
 
 	engine "murrine" {
