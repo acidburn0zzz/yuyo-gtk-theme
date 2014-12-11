@@ -17,7 +17,7 @@
 
 # Yuyo GTK2 Theme
 
-gtk-color-scheme = "base_color:#FFFFFF\nfg_color:#555\ntooltip_fg_color:#FFFFFF\nselected_bg_color:#87A556\nselected_fg_color:#FFFFFF\ntext_color:#555555\nbg_color:#EFEFEF\ninsensitive_bg_color:#efefef\ntooltip_bg_color:#333333\npanel_bg_color:#EFEFEF\npanel_fg_color:#555555\nlink_color:#86A455"
+gtk-color-scheme = "base_color:#FFFFFF\nfg_color:#555\ntooltip_fg_color:#FFFFFF\nselected_bg_color:#87A556\nselected_fg_color:#FFFFFF\ntext_color:#555555\nbg_color:#EFEFEF\ninsensitive_bg_color:#efefef\ntooltip_bg_color:#333333\npanel_bg_color:#EFEFEF\npanel_fg_color:#333333\nlink_color:#86A455"
 
 gtk-auto-mnemonics              = 1
 gtk-primary-button-warps-slider = 1
