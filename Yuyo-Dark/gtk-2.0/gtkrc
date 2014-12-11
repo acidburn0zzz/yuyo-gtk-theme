@@ -15,9 +15,9 @@
 # You should have received a copy of the GNU General Public License along
 # with the Yuyo GTK theme. If not, see http://www.gnu.org/licenses/.
 
-# Yuyo GTK2 Theme
+# Yuyo-Dark GTK2 Theme
 
-gtk-color-scheme = "base_color:#FFFFFF\nfg_color:#555\ntooltip_fg_color:#FFFFFF\nselected_bg_color:#87A556\nselected_fg_color:#FFFFFF\ntext_color:#555555\nbg_color:#EFEFEF\ninsensitive_bg_color:#efefef\ntooltip_bg_color:#333333\npanel_bg_color:#EFEFEF\nlink_color:#86A455"
+gtk-color-scheme = "base_color:#FFFFFF\nfg_color:#555\ntooltip_fg_color:#FFFFFF\nselected_bg_color:#87A556\nselected_fg_color:#FFFFFF\ntext_color:#555555\nbg_color:#EFEFEF\ninsensitive_bg_color:#efefef\ntooltip_bg_color:#333333\npanel_bg_color:#4B5044\nlink_color:#86A455"
 
 gtk-auto-mnemonics              = 1
 gtk-primary-button-warps-slider = 1

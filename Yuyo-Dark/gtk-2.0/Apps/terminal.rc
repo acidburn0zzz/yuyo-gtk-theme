@@ -1,0 +1,48 @@
+# ==============================================================================
+# GNOME TERMINAL SPECIFIC SETTINGS
+# ==============================================================================
+
+style "terminal_window" = "dark" {
+}
+
+style "terminal_menubar"
+{
+
+	engine "murrine" {
+	}
+}
+
+style "terminal_notebook" = "dark"
+{
+	fg[ACTIVE] = mix (0.8, "#E3E7E1", "#E3E7E1")
+
+	engine "murrine" { 
+	}
+}
+
+style "terminal_scrollbar" = "scrollbar"
+{
+	bg[NORMAL]        = "#4B5044"
+	bg[PRELIGHT]      = shade(1.08, "#4B5044")
+	bg[ACTIVE]        = shade(0.94, "#4B5044")
+	bg[SELECTED]      = shade(1.0, @selected_bg_color)
+	bg[INSENSITIVE]   = "#4B5044"
+
+	engine "murrine" {
+	}
+}
+
+style "terminal_screen"
+{
+	text[NORMAL] = "#E3E7E1"
+	base[NORMAL] = "#34422E"
+
+	TerminalScreen::background-darkness = 0.95
+}
+
+widget "*TerminalWindow*"                               style "terminal_window"
+#widget "*TerminalWindow.*.*enu?ar"                     style "terminal_menubar"
+widget "*TerminalWindow.*.GtkNotebook*"                 style "terminal_notebook"
+widget "*TerminalWindow.*.GtkNotebook.*.GtkVScrollbar*" style "scrollbar_dark"
+#widget "*TerminalWindow.*.GtkNotebook*utton*"           style "terminal_button"
+widget "*TerminalWindow.*.TerminalScreen*"              style "terminal_screen"
