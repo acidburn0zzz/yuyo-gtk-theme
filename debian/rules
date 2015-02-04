@@ -1,7 +1,8 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@ 
+	dh $@
 
-override_dh_auto_install:
-    --sourcedir=Yuyo
+override_dh_install:
+	dh_install
+	find debian/yuyo-gtk-theme/usr/share/themes -type f -name "*.png" -print0 2>/dev/null | xargs -0r chmod 644
