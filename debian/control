@@ -2,12 +2,14 @@ Source: yuyo-gtk-theme
 Section: gnome
 Priority: optional
 Maintainer: Sam Hewitt <hewittsamuel@gmail.com>
-Build-Depends: debhelper (>= 7)
-Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
 Homepage: https://github.com/snwh/yuyo-gtk-theme
 
 Package: yuyo-gtk-theme
 Architecture: all
 Depends: ${misc:Depends}, gtk2-engines-murrine, gtk2-engines-pixbuf, ubuntu-mate-icon-themes
-Description: Yuyo GTK Theme
- The Official Ubuntu MATE GTK theme.
+Description: Yuyo GTK2 and GTK3 Theme
+ Yuyo has light and dark variations and a flat style
+ with crisp clean lines. It is the official theme for
+ Ubuntu MATE.
