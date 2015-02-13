@@ -172,10 +172,6 @@ GtkListBoxRow:selected,
     color: white;
 }
 
-GtkListBoxRow:selected:backdrop, {
-    background-color: @backdrop_background;
-    color: @foreground;
-}
 
 GtkListBoxRow:selected:focus,
 .view:selected:focus {

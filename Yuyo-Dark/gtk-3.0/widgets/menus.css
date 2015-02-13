@@ -221,7 +221,6 @@ GtkTreeMenu .menuitem {
 .menuitem.radio:inconsistent:hover ,
 .menuitem.radio:inconsistent:insensitive,
 .menuitem.radio:insensitive {
-    background-size: 16px;
     background-color: transparent;
     box-shadow: none;
 }
