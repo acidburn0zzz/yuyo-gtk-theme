@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: yuyo-gtk-theme
 Upstream-Contact: Sam Hewitt <hewittsamuel@gmail.com>
-Source: https://code.launchpad.net/~ubuntu-mate-dev/ubuntu-mate/yuyo-gtk-theme
+Source: https://github.com/snwh/yuyo-gtk-theme
 
 Files: *
 Copyright: 2014, Sam Hewitt <hewittsamuel@gmail.com>
