@@ -19,6 +19,7 @@
 
 gtk-color-scheme = "base_color:#FFFFFF\nfg_color:#555\ntooltip_fg_color:#FFFFFF\nselected_bg_color:#87A556\nselected_fg_color:#FFFFFF\ntext_color:#555555\nbg_color:#EFEFEF\ninsensitive_bg_color:#efefef\ntooltip_bg_color:#333333\npanel_bg_color:#4B5044\npanel_fg_color:#E3E7E1\nlink_color:#86A455"
 
+
 gtk-auto-mnemonics              = 1
 gtk-primary-button-warps-slider = 1
 
@@ -1166,7 +1167,7 @@ style "entry"
             detail          = "entry"
             state           = NORMAL
             shadow          = IN
-            file            = "Entry/entry-border-bg.png"
+            file            = "Entry/entry-border.png"
             border          = { 4, 4, 4, 4 }
             stretch         = TRUE
         }
@@ -1177,7 +1178,7 @@ style "entry"
             detail          = "entry"
             state           = INSENSITIVE
             shadow          = IN
-            file            = "Entry/entry-border-disabled-bg.png"
+            file            = "Entry/entry-border-disabled.png"
             border          = { 4, 4, 4, 4 }
             stretch         = TRUE
         }
@@ -1186,7 +1187,7 @@ style "entry"
             function        = SHADOW
             detail          = "entry"
             state           = ACTIVE
-            file            = "Entry/entry-border-active-bg.png"
+            file            = "Entry/entry-border-active.png"
             border          = { 4, 4, 4, 4 }
             stretch         = TRUE
         }
@@ -1195,8 +1196,8 @@ style "entry"
             function                = FLAT_BOX
             detail                  = "entry_bg"
             state                   = NORMAL
-            overlay_file            = "Entry/entry-border-fill.png"
-            overlay_border          = { 0, 0, 0, 0 }
+            overlay_file            = "Entry/entry-border-fill-plain.png"
+            overlay_border          = { 1, 1, 1, 1 }
             overlay_stretch         = TRUE
         }
         image
@@ -1204,7 +1205,7 @@ style "entry"
             function                = FLAT_BOX
             detail                  = "entry_bg"
             state                   = ACTIVE
-            overlay_file            = "Entry/entry-border-fill.png"
+            overlay_file            = "Entry/entry-border-fill-plain.png"
             overlay_border          = { 0, 0, 0, 0 }
             overlay_stretch         = TRUE
         }
@@ -1221,7 +1222,7 @@ style "notebook_entry"
         detail          = "entry"
         state           = NORMAL
         shadow          = IN
-        file            = "Entry/entry-border-notebook.png"
+        file            = "Entry/entry-border.png"
         border          = { 4, 4, 4, 4 }
         stretch         = TRUE
     }
@@ -1231,7 +1232,7 @@ style "notebook_entry"
         detail          = "entry"
         state           = INSENSITIVE
         shadow          = IN
-        file            = "Entry/entry-border-disabled-notebook.png"
+        file            = "Entry/entry-border-disabled.png"
         border          = { 4, 4, 4, 4 }
         stretch         = TRUE
     }
@@ -1240,7 +1241,7 @@ style "notebook_entry"
         function        = SHADOW
         detail          = "entry"
         state           = ACTIVE
-        file            = "Entry/entry-border-active-notebook.png"
+        file            = "Entry/entry-border-activecom.png"
         border          = { 4, 4, 4, 4 }
         stretch         = TRUE
         }
@@ -1266,7 +1267,7 @@ style "combobox_entry"
             detail          = "entry"
             state           = NORMAL
             shadow          = IN
-            file            = "Entry/combo-entry-border-bg.png"
+            file            = "Entry/combo-entry-border.png"
             border          = { 4, 4, 5, 4 }
             stretch         = TRUE
             direction       = LTR
@@ -1277,7 +1278,7 @@ style "combobox_entry"
             detail          = "entry"
             state           = INSENSITIVE
             shadow          = IN
-            file            = "Entry/combo-entry-border-disabled-bg.png"
+            file            = "Entry/combo-entry-border-disabled.png"
             border          = { 4, 4, 5, 4 }
             stretch         = TRUE
             direction       = LTR
@@ -1287,7 +1288,7 @@ style "combobox_entry"
             function        = SHADOW
             detail          = "entry"
             state           = ACTIVE
-            file            = "Entry/combo-entry-border-active-bg.png"
+            file            = "Entry/combo-entry-border-active.png"
             border          = { 4, 4, 5, 4 }
             stretch         = TRUE
             direction       = LTR
@@ -1301,7 +1302,7 @@ style "combobox_entry"
             detail          = "entry"
             state           = NORMAL
             shadow          = IN
-            file            = "Entry/combo-entry-border-rtl-bg.png"
+            file            = "Entry/combo-entry-border-rtl.png"
             border          = { 4, 4, 5, 4 }
             stretch         = TRUE
             direction       = RTL
@@ -1312,7 +1313,7 @@ style "combobox_entry"
             detail          = "entry"
             state           = INSENSITIVE
             shadow          = IN
-            file            = "Entry/combo-entry-border-disabled-rtl-bg.png"
+            file            = "Entry/combo-entry-border-disabled-rtl.png"
             border          = { 4, 4, 5, 4 }
             stretch         = TRUE
             direction       = RTL
@@ -1322,7 +1323,7 @@ style "combobox_entry"
             function        = SHADOW
             detail          = "entry"
             state           = ACTIVE
-            file            = "Entry/combo-entry-border-active-rtl-bg.png"
+            file            = "Entry/combo-entry-border-active-rtl.png"
             border          = { 4, 4, 5, 4 }
             stretch         = TRUE
             direction       = RTL
@@ -1341,7 +1342,7 @@ style "notebook_combobox_entry"
             detail          = "entry"
             state           = NORMAL
             shadow          = IN
-            file            = "Entry/combo-entry-border-notebook.png"
+            file            = "Entry/combo-entry-border.png"
             border          = { 4, 4, 5, 4 }
             stretch         = TRUE
             direction       = LTR
@@ -1352,7 +1353,7 @@ style "notebook_combobox_entry"
             detail          = "entry"
             state           = INSENSITIVE
             shadow          = IN
-            file            = "Entry/combo-entry-border-disabled-notebook.png"
+            file            = "Entry/combo-entry-border-disabled.png"
             border          = { 4, 4, 5, 4 }
             stretch         = TRUE
             direction       = LTR
@@ -1362,7 +1363,7 @@ style "notebook_combobox_entry"
             function        = SHADOW
             detail          = "entry"
             state           = ACTIVE
-            file            = "Entry/combo-entry-border-active-notebook.png"
+            file            = "Entry/combo-entry-border-active.png"
             border          = { 4, 4, 5, 4 }
             stretch         = TRUE
             direction       = LTR
@@ -1376,7 +1377,7 @@ style "notebook_combobox_entry"
             detail          = "entry"
             state           = NORMAL
             shadow          = IN
-            file            = "Entry/combo-entry-border-rtl-notebook.png"
+            file            = "Entry/combo-entry-border-rtl.png"
             border          = { 4, 4, 5, 4 }
             stretch         = TRUE
             direction       = RTL
@@ -1387,7 +1388,7 @@ style "notebook_combobox_entry"
             detail          = "entry"
             state           = INSENSITIVE
             shadow          = IN
-            file            = "Entry/combo-entry-border-disabled-rtl-notebook.png"
+            file            = "Entry/combo-entry-border-disabled-rtl.png"
             border          = { 4, 4, 5, 4 }
             stretch         = TRUE
             direction       = RTL
@@ -1397,7 +1398,7 @@ style "notebook_combobox_entry"
             function        = SHADOW
             detail          = "entry"
             state           = ACTIVE
-            file            = "Entry/combo-entry-border-active-rtl-notebook.png"
+            file            = "Entry/combo-entry-border-active-rtl.png"
             border          = { 4, 4, 5, 4 }
             stretch         = TRUE
             direction       = RTL
@@ -1738,7 +1739,7 @@ style "standalone_entry"
         detail          = "entry"
                 state                   = NORMAL
         shadow          = IN
-        file            = "Entry/entry-border-bg-solid.png"
+        file            = "Entry/entry-border.png"
         border          = { 4, 4, 4, 4 }
         stretch         = TRUE
     }
@@ -1747,7 +1748,7 @@ style "standalone_entry"
         function        = SHADOW
         detail          = "entry"
                 state                   = ACTIVE
-        file            = "Entry/entry-border-active-bg-solid.png"
+        file            = "Entry/entry-border-active.png"
         border          = { 4, 4, 4, 4 }
         stretch         = TRUE
         }
