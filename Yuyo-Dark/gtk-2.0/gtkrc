@@ -17,7 +17,7 @@
 
 # Yuyo-Dark GTK2 Theme
 
-gtk-color-scheme = "base_color:#FFFFFF\nfg_color:#555\ntooltip_fg_color:#FFFFFF\nselected_bg_color:#87A556\nselected_fg_color:#FFFFFF\ntext_color:#555555\nbg_color:#EFEFEF\ninsensitive_bg_color:#efefef\ntooltip_bg_color:#333333\npanel_bg_color:#4B5044\npanel_fg_color:#E3E7E1\nlink_color:#86A455"
+gtk-color-scheme = "base_color:#FFFFFF\nfg_color:#555\ntooltip_fg_color:#FFFFFF\nselected_bg_color:#87A556\nselected_fg_color:#FFFFFF\ntext_color:#555555\nbg_color:#EFEFEF\ninsensitive_bg_color:#efefef\ntooltip_bg_color:#333333\npanel_bg_color:#4B5044\npanel_fg_color:#E3E7E1\nlink_color:#86A455\nwm_color:#4B5044"
 
 
 gtk-auto-mnemonics              = 1
@@ -30,7 +30,7 @@ style "default"
 
     # Style Properties
 
-    GtkWidget::focus-line-width     = 1
+    GtkWidget::focus-line-width     = 0
     GtkMenuBar::window-dragging     = 1
     GtkToolbar::window-dragging     = 1
     GtkToolbar::internal-padding    = 4
@@ -1241,7 +1241,7 @@ style "notebook_entry"
         function        = SHADOW
         detail          = "entry"
         state           = ACTIVE
-        file            = "Entry/entry-border-activecom.png"
+        file            = "Entry/entry-border-active.png"
         border          = { 4, 4, 4, 4 }
         stretch         = TRUE
         }

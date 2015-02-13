@@ -22,9 +22,9 @@
  **********/
 
 /* Base colors */
-@define-color base #555;/* Base color */
+@define-color base #666D5C;/* Base color */
 @define-color background #4B5044;/* Background color */
-@define-color foreground #ddd;/* Foreground color */
+@define-color foreground #A2AA98;/* Foreground color */
 @define-color border alpha(#000, 0.2);/* Borders color */
 @define-color separator @border;/* Separator color */
 @define-color menu_separator alpha(#000, 0.2);/* Separator color */
@@ -34,9 +34,9 @@
 @define-color selected_border shade(#86A455, 0.7);/* Selection Border */
 @define-color gradient_a @background;/* Gradient color A */
 @define-color gradient_b shade(@background, 0.95);/* Gradient color B */
-@define-color view_background #555;/* View background */
+@define-color view_background #666D5C;/* View background */
 @define-color inactive_frame alpha(#000, 0.2);/* Inactive frame color */
-@define-color panel_text #ddd;/* Panel text color */
+@define-color panel_text #A2AA98;/* Panel text color */
 @define-color panel_text_shadow alpha(#000, 0.2);/* Panel text color */
 @define-color text_shadow alpha(#000, 0.4);/* Text shadow */
 @define-color icon_shadow @text_shadow;/* Icon shadow */
