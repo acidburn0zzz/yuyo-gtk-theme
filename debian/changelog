@@ -1,3 +1,9 @@
+yuyo-gtk-theme (0.3) UNRELEASED; urgency=low
+
+  * Override symbolic icons.
+
+ -- Martin Wimpress <code@flexion.org>  Sun, 08 Feb 2014 22:48:21 -0000
+
 yuyo-gtk-theme (0.2) vivid; urgency=low
 
   * Updated packaging.

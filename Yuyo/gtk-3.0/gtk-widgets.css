@@ -60,6 +60,7 @@
 
     color: inherit;
     background-color: inherit;
+    -gtk-icon-style: regular; /* disable symbolic icons */
 }
 
 /* Import Widget CSS */
