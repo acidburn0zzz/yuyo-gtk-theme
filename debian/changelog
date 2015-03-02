@@ -2,6 +2,7 @@ yuyo-gtk-theme (0.3) vivid; urgency=low
 
   * Override symbolic icons.
   * Move window buttons 1px up.
+  * Closes (LP: #1427189)
 
  -- Martin Wimpress <code@flexion.org>  Sun, 08 Feb 2014 22:48:21 -0000
 
