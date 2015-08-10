@@ -37,7 +37,7 @@ style "libreoffice_entry"
     		    detail			        = "entry"
                 state                   = NORMAL
     		    shadow			        = IN
-    		    file			        = "Entry/entry-border-bg-solid.png"
+    		    file			        = "Entry/entry-border.png"
     		    border			        = { 4, 4, 4, 4 }
     		    stretch			        = TRUE
     	    }
@@ -46,7 +46,7 @@ style "libreoffice_entry"
         		function 	            = SHADOW
         		detail			        = "entry"
                 state                   = ACTIVE
-        		file	                = "Entry/entry-border-active-bg-solid.png"
+        		file	                = "Entry/entry-border-active.png"
         		border	                = { 4, 4, 4, 4 }
         		stretch		            = TRUE
             }
